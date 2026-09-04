@@ -37,7 +37,6 @@ int GetLenght(int num)
 	int c = 0;
 	while(num>0)
 	{
-		int temp = num%10;
 		num = num/10;
 		c = c+1;
 	}
